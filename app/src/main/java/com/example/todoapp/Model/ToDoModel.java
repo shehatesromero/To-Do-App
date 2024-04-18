@@ -1,10 +1,25 @@
 package com.example.todoapp.Model;
 
+/**
+ * Модель данных для представления задачи в приложении.
+ * Содержит поля для идентификатора, текста задачи и статуса выполнения.
+ */
 public class ToDoModel {
 
+    /**
+     * Поле модели данных: текст задачи
+     */
     private String task;
-    private int id , status;
+    /**
+     * Поле модели данных: идентификатор
+     */
+    private int id;
+    /**
+     * Поля модели данных: статус выполнения
+     */
+    private int status;
 
+    // Геттеры и сеттеры для доступа к полям модели
     public String getTask() {
         return task;
     }
